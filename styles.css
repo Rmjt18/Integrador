@@ -11,8 +11,10 @@
     --background: rgb(5, 5, 87);
 }
 
-.header{
-background: var(--background);
+header{
+
+/* background: var(--background); */
+background: linear-gradient(to bottom,skyblue, rgb(5, 5, 87)  );
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -25,7 +27,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
 
 }
 .navbar-list a{
@@ -38,7 +40,118 @@ width: 100%;
     border-radius: 15px;
 }
 
+#gym-toggle{
+    display: none;
+    
+}
+
+.gym-icon{
+    padding: 5px 5px;
+    border-radius: 15px ;
+    height: 65px;
+    cursor: pointer;
+    margin-left: 0;
+}
+.gym {
+    
+    overflow-y: scroll ;
+    gap: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 65px;
+    padding: 50px 30px;
+    background: linear-gradient(to bottom,  skyblue , rgb(5, 5, 87) );
+    border-left: 1px solid var(--background);
+    height: calc(100vh - 65px);
+    display: none;
+
+}
+.gym h2{
+    color: var(--background);
+    font-size: 30px;
+    font-weight: 800;
+}
+.gym h3{
+    color: black;
+}
+.gym h4{
+    color: rgb(99, 3, 3);
+}
+.gym p{
+    color: black;
+}
+.gym-item{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.item-info{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.img-lider{
+    width: 55px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img-medallas{
+    border-radius: 10px;
+    right: 100%;
+    width: 50px;
+    justify-content: end;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.item-title{
+    color: whitesmoke;
+    font-size: 18px;
+
+}
+.tem-bid{
+    color: grey;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.btn-desafio{
+    background: crimson;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#gym-toggle:checked + .gym{
+    display: flex;
+
+}
+
+
+
+
 main{
+    
     background: skyblue;
     display: flex;
     flex-direction: column;
@@ -566,7 +679,8 @@ form .button input:hover{
 footer{
     padding: 10px;
     gap: 2rem;
-    background-color: var(--background);
+    /* background-color: var(--background); */
+    background: linear-gradient(to bottom, rgb(5, 5, 87) ,skyblue  );
     display: flex;
     align-items: center;
     justify-content: center;
@@ -577,6 +691,7 @@ footer ul{
 }
 
 footer img{
+    
     width: 80px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
