@@ -203,6 +203,7 @@ gap: 1rem;
 #hero img {
     width: 400px;
     border-radius: 20px;
+    border: 5px solid var(--background);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -514,7 +515,7 @@ form .button input:hover{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background: rgb(5, 57, 78);
+    background: rgb(51, 85, 100);
     padding:25px;
     height: 700;
     border-radius: 15px;
