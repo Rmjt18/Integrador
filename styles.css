@@ -181,9 +181,11 @@ gap: 1rem;
 
 
 .hero__info a{
-    color: red;
+    font-size: 30px;
+    justify-content: center;
+    color: yellow;
     padding: 10px;
-    background: black;
+    background: linear-gradient(to bottom,  skyblue , rgb(5, 5, 87) );
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
