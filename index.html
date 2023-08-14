@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon first Season</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/mediaqueries.css">
 </head>
 <body>
     <header> 
         <img src="/img/pokemon.png" alt="logo" class="header__logo"/>
         <nav class="navbar">
+<!-- agregamos el input label para menu hamburguesa -->
+<label for="menu-toggle" class="menu-label">
+    <img src="/img/menudesglose2.jpg" alt="menu">
+</label>
+<input type="checkbox" id="menu-toggle">
         <ul class="navbar-list">
             <li><a href="#">Home</a></li>
             <li><a href="#hero">Captura</a></li>
             <li><a href="#info">Nosotros</a></li>
             <li><a href="#Pokedex">Pokedex</a></li>
             <li><a href="#contactanos">Contactanos</a></li>
-            <label for="gym-toggle" class="gym-label"> <img src="/img/logogym.png" alt="GYM" class="gym-icon"></label>
+
+    <label for="gym-toggle" class="gym-label"> <img src="/img/logogym.png" alt="GYM" class="gym-icon"></label>
             <input type="checkbox" id="gym-toggle">
 
             <div class="gym">
@@ -122,9 +129,7 @@
                     
                 </div>
             </div>
-        </ul> 
-        
-        
+        </ul>
 <!-- ------------------CREAMOS GYM MENU --------------------->
 
         </nav>

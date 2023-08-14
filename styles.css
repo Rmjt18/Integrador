@@ -40,7 +40,7 @@ width: 100%;
     border-radius: 15px;
 }
 
-#gym-toggle{
+#gym-toggle, #menu-toggle, .menu-label{
     display: none;
     
 }
@@ -503,10 +503,12 @@ form .button input:hover{
     padding: 10px 0;
     gap: 1rem;
 
+
 }
 
 .info__container--card{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -541,6 +543,9 @@ form .button input:hover{
     max-width: 1200px;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     
 }
 
@@ -557,6 +562,7 @@ form .button input:hover{
 .selection__container{
     max-width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
 }

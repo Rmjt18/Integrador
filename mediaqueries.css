@@ -1,0 +1,60 @@
+@media (max-width: 992px){
+.navbar{
+    gap: 10px;
+}
+.navbar-list{
+    position: absolute;
+    top: 65px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    border: 2px solid var(--background);
+    border-top: 0;
+    flex-direction: column;
+    background: rgb(5, 57, 78);
+    border-radius: 0px 0px 15px 15px;
+    padding: 45px 30px;
+    display: none;
+}
+.navbar-list a{
+    font-size: 30px;
+}
+.menu-label{
+    display: flex;
+    cursor: pointer;
+    /* order: 2; */
+}
+.menu-label img{
+    border-radius: 15px;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#menu-toggle:checked + .navbar-list{
+    display: flex;
+}
+.info__container{
+max-width: 80%;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 0 100px ;
+text-align: center;
+}
+
+/* #selection{
+background: red;
+max-width: 80%;
+} */
+
+.selection__container{
+justify-content: center;
+
+}
+.pokemon{
+    padding: 50px;
+}
+
+}
