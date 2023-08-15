@@ -181,6 +181,7 @@ gap: 1rem;
 
 
 .hero__info a{
+    display: flex;
     font-size: 30px;
     justify-content: center;
     color: yellow;
