@@ -756,6 +756,11 @@ footer img{
     -o-border-radius: 15px;
 }
 
+footer img:hover {
+    transform: scale(1.2);
+    transition: all 0, 3s;
+}
+
 
 
 
