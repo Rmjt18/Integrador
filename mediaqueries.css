@@ -89,7 +89,8 @@ header{
 }
 
 .hero__info{
-
+    display: flex;
+    flex-direction: column;
     width: 90%;
     text-align: center;
     font-size: 30px;
@@ -101,8 +102,7 @@ header{
 .hero__info a{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding: 30px;
+    padding: 10px;
     background: red;
 
 
@@ -112,13 +112,15 @@ main{
 }
 .info__container{
 padding: 0 0 0 0;
+
 }
+
 #info h2, #selection h2, #Pokedex h2, #contactanos h2{
     text-align: center;
     font-size: 40px;
     width: 70%;
-    padding: 10px;
-    background: red;
+    padding: 8px;
+
 
 
 }
