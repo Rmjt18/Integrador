@@ -34,10 +34,21 @@ width: 100%;
     color: yellow;
     font-size: 25px;
 }
+.navbar-list li:hover {
+    transform: scale(1.2);
+    transition: all 0, 3s;
+}
 
 .header__logo{
     width: 20%;
     border-radius: 15px;
+    cursor: pointer;
+    transition: all 0, 3s;
+
+}
+
+.header__logo:hover {
+    transform: scale(1.2);
 }
 
 #gym-toggle, #menu-toggle, .menu-label{
@@ -51,6 +62,11 @@ width: 100%;
     height: 65px;
     cursor: pointer;
     margin-left: 0;
+}
+
+.gym-icon:hover {
+    transform: scale(1.2);
+    transition: all 0, 3s;
 }
 .gym {
     
@@ -140,6 +156,11 @@ width: 100%;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+
+}
+.btn-desafio:hover {
+    transform: scale(1.2);
+    transition: all 0, 3s;
 }
 
 #gym-toggle:checked + .gym{
@@ -193,6 +214,11 @@ gap: 1rem;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
+
+.hero__info a:hover {
+    transform: scale(1.2);
+    transition: all 0, 3s;
+}
 .button{
     display: flex;
     gap: 5rem;
@@ -200,6 +226,7 @@ gap: 1rem;
     color:blue;
     
 }
+
 
 #hero img {
     width: 400px;
@@ -681,14 +708,22 @@ form .button input:hover{
 }
 #contactanos iframe{
     width: 200;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 3px solid var(--background);
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
+iframe{
+    border-radius: 20px;
+    border: 3px solid var(--background);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
 footer{
     width: 100%;
@@ -703,6 +738,12 @@ footer{
 footer ul{
     color: yellow;
     font-size: 20px;
+    cursor: pointer;
+}
+
+footer ul:hover {
+    transform: scale(1.2);
+    transition: all 0, 3s;
 }
 
 footer img{
