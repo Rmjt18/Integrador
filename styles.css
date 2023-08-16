@@ -668,7 +668,8 @@ form .button input:hover{
 }
 
 #contactanos{
-    padding: 70px;
+    font-size: 15px;
+    padding: 10px;
     max-width: 1200px;
     display: flex;
     align-items: center;
@@ -681,6 +682,7 @@ form .button input:hover{
 #contactanos img{
     width: 200;
     border-radius: 15px;
+    border: 3px solid var(--background);
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
