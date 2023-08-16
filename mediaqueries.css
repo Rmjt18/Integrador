@@ -117,11 +117,8 @@ padding: 0 0 0 0;
 #info h2, #selection h2, #Pokedex h2, #contactanos h2{
     text-align: center;
     font-size: 40px;
-    width: 80%;
-    padding: 8px;
-    background: red;
-
-
+    width: 70%;
+    padding: 10px;
 
 }
 .info__container--card h3{
