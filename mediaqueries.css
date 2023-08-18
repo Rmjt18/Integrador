@@ -2,6 +2,7 @@
 .navbar{
     gap: 10px;
 }
+
 .navbar-list{
     position: absolute;
     top: 65px;
@@ -40,6 +41,8 @@
 #menu-toggle:checked + .navbar-list{
     display: flex;
 }
+
+
 .info__container{
 max-width: 80%;
 flex-wrap: wrap;
@@ -106,6 +109,7 @@ header{
     
 
 }
+
 main{
     width: 100%;
 }
