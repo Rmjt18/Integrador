@@ -113,6 +113,27 @@ header{
 main{
     width: 100%;
 }
+
+
+#init img{
+    display: none;
+    width: 200px;
+border-radius: 20px;
+border: 5px solid var(--background);
+justify-content: center;
+align-items: center;
+}
+
+.init__container p{
+    width: 200%;
+
+}
+
+.out{
+    text-align: center;
+}
+
+
 .info__container{
 padding: 0 0 0 0;
 
