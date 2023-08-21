@@ -115,8 +115,11 @@ main{
 }
 
 
+#init{
+    flex-direction: column;
+}
 #init img{
-    display: none;
+    
     width: 200px;
 border-radius: 20px;
 border: 5px solid var(--background);
@@ -126,6 +129,7 @@ align-items: center;
 
 .init__container p{
     width: 200%;
+    flex-direction: column;
 
 }
 
